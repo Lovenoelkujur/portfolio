@@ -3,13 +3,14 @@ import './App.css';
 import Animation from './components/Animation';
 import Header from './components/Header';
 import HeaderLink from './components/HeaderLink';
+import ProjectSection from './project/projectSection';
 
 function App() {
 
-
   return (
     <>
-      <section className='bg-[#111] text-white w-full min-h-screen flex flex-col justify-between font-["Nunito"]'>
+    <div className='bg-black text-white font-["Nunito"]'>
+      <section className='h-screen flex flex-col justify-between'>
         <Header />
         <Animation />
         <HeaderLink />
@@ -58,6 +59,13 @@ function App() {
           </button>
         </div>
       </section>
+      <section className='max-w-screen-xl mx-auto px-4 relative'>
+        <h2 className='text-[40px] bg-[black] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] border-b-2 border-[#1788ae]'>
+          Latest Works
+        </h2>
+        <ProjectSection />
+      </section>
+    </div>
     </>
   )
 }

@@ -6,7 +6,14 @@ Welcome to my personal portfolio website! This site showcases my work, technical
 
 📸 Screenshots
 
+- Header
+
 ![Header Section](./src/assets/Images/header-section.png)
+
+- About us
+
+![About us](./src/assets/Images/about-me.png)
+
 
 ---
 
