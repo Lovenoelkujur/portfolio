@@ -14,6 +14,10 @@ Welcome to my personal portfolio website! This site showcases my work, technical
 
 ![About us](./src/assets/Images/about-me.png)
 
+- Latest Work
+
+![Latest Work](./src/assets/Images/Project-Section.png)
+
 
 ---
 

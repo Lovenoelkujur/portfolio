@@ -318,7 +318,7 @@ const ProjectSection = () => {
                         alt="LMS" 
                     />
                     <span className='flex text-black bg-orange-400 sm:absolute left-1/2 sm:-translate-x-1/2 top-5 px-4 py-2 text-sm sm:text-base mt-2 rounded w-max items-center gap-1 after:hidden sm:after:block after:w-4 after:h-4 after:bg-inherit after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2 group-hover:-top-18 ease-in-expo duration-200'>
-                        Learning Management System
+                        LMS
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             width="16" 
