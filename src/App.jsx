@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import HeaderLink from './components/HeaderLink';
-import ProjectSection from './project/projectSection';
+import ProjectSection from './project/ProjectSection';
 
 function App() {
 
