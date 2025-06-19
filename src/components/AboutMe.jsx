@@ -1,5 +1,5 @@
 import React from 'react';
-import Tooltip from './ToolTip';
+import Tooltip from './Tooltip';
 
 const AboutMe = () => {
   return (
