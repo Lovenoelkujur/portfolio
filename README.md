@@ -18,6 +18,10 @@ Welcome to my personal portfolio website! This site showcases my work, technical
 
 ![Latest Work](./src/assets/Images/Project-Section.png)
 
+- Contact us
+
+![Contact us](./src/assets/Images/Contact-us.png)
+
 
 ---
 

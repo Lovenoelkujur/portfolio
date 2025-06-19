@@ -1,6 +1,8 @@
 
 import './App.css';
 import Animation from './components/Animation';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import HeaderLink from './components/HeaderLink';
 import ProjectSection from './project/projectSection';
@@ -59,12 +61,22 @@ function App() {
           </button>
         </div>
       </section>
+
       <section className='max-w-screen-xl mx-auto px-4 relative pb-8 sm:pb-16'>
         <h2 className='text-3xl sm:text-[40px] bg-[black] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] border-b-2 border-[#1788ae]'>
           Latest Works
         </h2>
         <ProjectSection />
       </section>
+
+      <section className='max-w-screen-xl mx-auto px-4 pb-12'>
+        <h2 className='text-3xl sm:text-[40px] bg-[black] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] sm:border-2 border-[#1788ae] rounded-md'>
+          Let's Connect
+        </h2>
+        <Contact />
+      </section>
+
+      <Footer />
     </div>
     </>
   )
