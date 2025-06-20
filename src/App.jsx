@@ -1,4 +1,4 @@
-
+import { useRef } from 'react';
 import './App.css';
 import Animation from './components/Animation';
 import Contact from './components/Contact';
@@ -9,6 +9,12 @@ import ProjectSection from './project/ProjectSection';
 
 function App() {
 
+  const scrollRef = useRef(null);
+
+  const handleScrollDown = () => {
+    scrollRef.current?.scrollIntoView({behavior : "smooth"})
+  };
+
   return (
     <>
     <div className='bg-black text-white font-["Nunito"]'>
@@ -17,7 +23,10 @@ function App() {
         <Animation />
         <HeaderLink />
         <div className='relative self-center after:content-[""] after:absolute after:w-[2px] after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[100px]'>
-          <button className='bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-20'>
+          <button 
+            onClick={handleScrollDown}
+            className='bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-20'
+          >
             Latest Works
             <svg 
               xmlns:dc="http://purl.org/dc/elements/1.1/" 
@@ -62,7 +71,7 @@ function App() {
         </div>
       </section>
 
-      <section className='max-w-screen-xl mx-auto px-4 relative pb-8 sm:pb-16'>
+      <section ref={scrollRef} className='max-w-screen-xl mx-auto px-4 relative pb-8 sm:pb-16'>
         <h2 className='text-3xl sm:text-[40px] bg-[black] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae] border-b-2 border-[#1788ae]'>
           Latest Works
         </h2>
